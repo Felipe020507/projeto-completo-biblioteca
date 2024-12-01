@@ -1,0 +1,107 @@
+@media (max-width: 425px) {
+    .barra-lateral {
+        width: 100%; 
+        position: static; 
+        min-height: 100vh; 
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .titulo-biblioteca {
+        font-size: 1.4em; 
+        margin-bottom: 30px;
+        padding-left: 10px; 
+        padding-right: 10px; 
+        text-align: center; 
+    }
+
+    .menu {
+        font-size: 1.0em; 
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    /* Menu inferior */
+    .menu-inferior {
+        font-size: 1.0em;
+        padding-right: 10px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .menu ul, .menu-inferior ul {
+        list-style-type: none;
+        width: 100%; 
+        padding: 0;
+    }
+
+    .menu ul li a, .menu-inferior ul li a {
+        display: block;
+        padding: 12px 0; 
+        font-size: 1.1em; 
+        text-align: center; 
+        color: #333;
+        text-decoration: none;
+        transition: background-color 0.3s ease, padding-left 0.3s ease;
+    }
+
+    .menu ul li a:hover, .menu-inferior ul li a:hover {
+        background-color: #0056b3;
+        padding-left: 20px; 
+        color: white;
+    }
+
+    .conteudo-suporte {
+        flex-grow: 1;
+        padding: 20px;
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .conteudo-suporte h2 {
+        font-size: 1.8em; 
+        margin-bottom: 20px;
+        text-align: center; 
+    }
+
+    .conteudo-suporte p {
+        font-size: 1.1em; 
+        margin-bottom: 20px;
+        text-align: justify; 
+    }
+
+    .conteudo-suporte form {
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+    }
+
+    textarea {
+        padding: 10px;
+        font-size: 1.0em;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        resize: none;
+        width: 100%; 
+    }
+
+    button {
+        padding: 12px 20px;
+        font-size: 1.1em;
+        border: none;
+        border-radius: 5px;
+        background-color: #0056b3;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        width: 100%; 
+    }
+
+    button:hover {
+        background-color: #003f7f;
+    }
+}

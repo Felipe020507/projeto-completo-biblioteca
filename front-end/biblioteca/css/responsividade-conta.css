@@ -1,0 +1,130 @@
+@media (max-width: 425px) {
+    .barra-lateral {
+        width: 40%; 
+        position: static; 
+        min-height: 100vh; 
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        border-right: 2px solid #ccc; 
+        overflow: auto; 
+    }
+
+    .titulo-biblioteca {
+        font-size: 1.4em; 
+        margin-bottom: 30px; 
+        padding-left: 10px; 
+        padding-right: 10px; 
+    }
+
+    .menu, .menu-inferior {
+        font-size: 1.0em; 
+        padding-right: 10px;
+    }
+
+    .menu ul, .menu-inferior ul {
+        width: 100%; 
+        padding: 0;
+    }
+
+    .menu ul li a, .menu-inferior ul li a {
+        text-align: center; 
+        padding: 12px 0;
+        font-size: 1.1em; 
+    }
+
+    .menu ul li a:hover, .menu-inferior ul li a:hover {
+        background-color: #0056b3;
+        padding-left: 20px; 
+        color: white;
+    }
+
+    .container-conta {
+        width: 100%; 
+        padding: 0 10px; 
+        margin-top: 30px;
+        text-align: center; 
+    }
+
+    #titulo {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    #livros-container {
+        display: flex;
+        flex-direction: column; 
+        gap: 10px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .livro-item {
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start;
+        width: 100%;
+        padding: 12px;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease;
+    }
+
+    .livro-item:hover {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .livro-item p {
+        flex: 1;
+        font-size: 1.1em;
+        margin-bottom: 8px; 
+    }
+
+    .livro-item button {
+        width: 80%; 
+        padding: 12px 0;
+        margin-top: 10px;
+        font-size: 1em; 
+        margin-left: 10%; 
+    }
+
+    .livro-item button.confirmar {
+        background-color: #4CAF50;
+    }
+
+    .livro-item button.confirmar:hover {
+        background-color: #3e8e41;
+    }
+
+    .livro-item button.remover {
+        background-color: #f44336;
+    }
+
+    .livro-item button.remover:hover {
+        background-color: #d32f2f;
+    }
+
+    .empty-message {
+        font-size: 1.1em;
+        color: #888;
+        margin-top: 20px;
+    }
+
+    .datas {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 0;
+        display: block; 
+    }
+
+    .datas span {
+        font-size: 1em;
+        color: #333;
+        margin-top: 5px;
+    }
+}
+

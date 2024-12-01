@@ -1,0 +1,101 @@
+@media (max-width: 425px) {
+    .barra-lateral {
+        width: 100%;
+        position: static; 
+        min-height: auto; 
+        padding-top: 10px;
+    }
+
+    .titulo-biblioteca {
+        font-size: 1.4em; 
+        margin-bottom: 30px;
+        padding-left: 10px; 
+        padding-right: 10px; 
+    }
+
+    .menu, .menu-inferior {
+        font-size: 1.0em; 
+        padding-right: 10px;
+    }
+
+    .menu ul, .menu-inferior ul {
+        width: 100%; 
+        padding: 0;
+    }
+
+    .menu ul li a, .menu-inferior ul li a {
+        text-align: center; 
+        padding: 12px 0; 
+        font-size: 1.1em; 
+    }
+
+    .menu ul li a:hover, .menu-inferior ul li a:hover {
+        background-color: #0056b3;
+        padding-left: 20px; 
+        color: white;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .barra-fixa {
+        padding: -21px;
+    }
+
+    .conteudo {
+        width: 100%; 
+        padding: 10px;
+    }
+
+    .alfabeto {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 6px; 
+        justify-items: center;
+        margin-bottom: 10px;
+        width: 100%;
+        position: sticky;
+        top: 0; 
+        background-color: #fff; 
+        z-index: 1000;
+        padding: 8px; 
+    }
+
+    .alfabeto span, .alfabeto button {
+        font-size: 0.8em; 
+        padding: 6px 8px; 
+    }
+
+    .livros {
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px; 
+        width: 100%; 
+        margin-left: -10px; 
+        padding: 2px;
+    }
+
+    .livro {
+        width: 100%; 
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        background-color: #fff;
+        padding: 0px; 
+    }
+
+    .livro img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .livro p { 
+        font-size: 0.8em; 
+    }
+
+    body, html {
+        overflow-x: hidden; 
+        width: 100%; 
+    }
+}

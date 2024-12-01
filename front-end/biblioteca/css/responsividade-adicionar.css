@@ -1,0 +1,90 @@
+@media (max-width: 425px) {
+    .barra-lateral {
+        width: 40%; 
+        position: static; 
+        min-height: 100vh; 
+        padding-top: 10px;
+    }
+
+    .titulo-biblioteca {
+        font-size: 1.4em; 
+        margin-bottom: 50px; 
+        padding-left: 10px; 
+        padding-right: 10px; 
+    }
+
+    .menu {
+        font-size: 1.0em; 
+        padding-right: 10px;
+    }
+
+    .menu-inferior {
+        font-size: 1.0em;
+        padding-right: 10px;
+    }
+
+    .menu ul, .menu-inferior ul {
+        width: 100%; 
+    }
+
+    .menu ul li a, .menu-inferior ul li a {
+        text-align: center; 
+        padding: 12px 0; 
+        font-size: 1.1em; 
+    }
+
+    .menu ul li a:hover, .menu-inferior ul li a:hover {
+        background-color: #0056b3;
+        padding-left: 20px; 
+        color: white;
+    }
+
+    header {
+        padding: 15px; 
+        margin-left: -5px;
+    }
+
+    .titulo{
+        font-size: 1.8em;
+    }
+
+    .barra-pesquisa-container {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .barra-pesquisa {
+        font-size: 1em; 
+        padding: 10px;
+    }
+
+      .detalhes-livro {
+        padding: 10px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    #detalhes-livro .descricao {
+        font-size: 1em;  
+        color: #666;
+        line-height: 1.4;
+        margin-bottom: 8px;
+    }
+
+    #detalhes-livro .descricao h3 {
+        font-size: 1.5em; 
+        color: #0056b3; 
+    }
+
+    #detalhes-livro .descricao p {
+        font-size: 0.8em;
+        color: #666;
+    }
+
+    .botao-adicionar {
+        padding: 8px 10px;
+        font-size: 1em;
+        width: 80%;
+        margin-top: 15px;
+    }
+}

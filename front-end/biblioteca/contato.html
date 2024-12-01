@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Biblioteca Virtual</title>
+    <link rel="icon" href="img/biblioteca-on-line.png">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/responsividade-contato.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Biblioteca Virtual</h1>
+            <ul>
+                <li><a href="contato.html">Contate-nos</a></li>
+                <li><a href="index.html" class="menu-botao">Iniciar Sessão</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Fale Conosco</h2>
+        <p>Tem alguma dúvida ou sugestão? Preencha o formulário abaixo e entraremos em contato o mais rápido possível!</p>
+        
+        <form id="form-contato" class="form-contato">
+            <div class="input-group">
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Seu E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            </div>
+            <div class="input-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem..." required></textarea>
+            </div>
+            <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
+
+        <div id="mensagem-sucesso" class="mensagem-sucesso">
+            <p>Mensagem enviada com sucesso! Agradecemos seu contato.</p>
+        </div>
+    </div>
+
+    <script src="js/contato.js"></script>
+</body>
+</html>
